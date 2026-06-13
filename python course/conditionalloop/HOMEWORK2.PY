@@ -29,6 +29,25 @@
 
 
 
+#my home work
+# Even or Odd
 
+
+# num =3
+# s=1
+
+# for i in range(1,num+1):
+#   s=s*i
+
+
+# print(s)
+
+# people = ["Ravi", "Arun", "Ravi", "Kiran", "Arun", "Manoj"]
+# anull_set = set()
+
+# for name in people:
+#     anull_set.add(name)
+    
+# print(anull_set)  
 
 
