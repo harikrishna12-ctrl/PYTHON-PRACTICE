@@ -50,4 +50,42 @@
     
 # print(anull_set)  
 
+# Q1. College Event Registration
 
+# A college event has the following registrations:
+registrations = [
+    "Rahul", "Anil", "Rahul",
+    "Kiran", "Manoj", "Anil",
+    "Pooja", "Kiran", "Ravi"
+]
+# null_set=set()
+# for names in registrations:
+#     null_set.add(names)
+    
+# print(null_set)    
+
+
+#printing people who registered only once
+# frec={}
+# for names in registrations:
+#      frec[names]=frec.get(names,0)+1
+ 
+
+# for name,count in frec.items():
+#      if(count==1):
+#           print(name)
+
+
+marks = {
+    "Ravi": 78,
+    "Anil": 35,
+    "Kiran": 92,
+    "Pooja": 45,
+    "Manoj": 33
+}
+
+
+max_marks=max(marks,key=marks.get)
+print(marks)
+
+print("most issued:",max_marks)
